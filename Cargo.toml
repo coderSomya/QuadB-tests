@@ -37,3 +37,11 @@ path = "src/bin/kth.rs"
 [[bin]]
 name = "reverse"
 path = "src/bin/reverse.rs"
+
+[[bin]]
+name = "merge"
+path = "src/bin/merge.rs"
+
+[[bin]]
+name = "maxsubarray"
+path = "src/bin/max_subarray.rs"
