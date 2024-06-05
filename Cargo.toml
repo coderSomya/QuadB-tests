@@ -13,3 +13,7 @@ path = "src/bin/palindrome.rs"
 [[bin]]
 name = "binsearch"
 path = "src/bin/binary_search.rs"
+
+[[bin]]
+name = "shortestword"
+path = "src/bin/shortest_word.rs"
