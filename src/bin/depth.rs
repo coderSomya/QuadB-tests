@@ -2,7 +2,6 @@ use std::io::{self, Write};
 use std::rc::Rc;
 use std::cell::RefCell;
 
-// Define a TreeNode structure
 #[derive(Debug)]
 struct TreeNode {
     val: i32,
@@ -20,7 +19,6 @@ impl TreeNode {
     }
 }
 
-// Function to add edge to the tree
 fn add_edge(parent: &mut Option<Rc<RefCell<TreeNode>>>, child_val: i32, is_left: bool) {
     let child = TreeNode::new(child_val);
 
@@ -31,7 +29,6 @@ fn add_edge(parent: &mut Option<Rc<RefCell<TreeNode>>>, child_val: i32, is_left:
     }
 }
 
-// Function to calculate the maximum depth of the binary tree
 fn max_depth(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
     match root {
         Some(node) => {
@@ -44,10 +41,8 @@ fn max_depth(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
 }
 
 fn main() {
-    // Prompt the user for input
     println!("Enter edges in the format 'parent child L/R' (L for left, R for right). Enter 'done' when finished:");
 
-    // Read the input from the user
     let mut root: Option<Rc<RefCell<TreeNode>>> = None;
     loop {
         print!("Edge: ");
@@ -85,7 +80,6 @@ fn main() {
         add_edge(&mut root, child_val, is_left);
     }
 
-    // Calculate and print the maximum depth of the binary tree
     let depth = max_depth(root);
     println!("The maximum depth of the binary tree is: {}", depth);
 }
