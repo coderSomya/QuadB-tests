@@ -10,6 +10,6 @@ edition = "2021"
 name = "palindrome"
 path = "src/bin/palindrome.rs"
 
-# [[bin]]
-# name = ""
-# path = "src/bin/.rs"
+[[bin]]
+name = "binsearch"
+path = "src/bin/binary_search.rs"
