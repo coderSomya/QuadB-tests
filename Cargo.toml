@@ -45,3 +45,7 @@ path = "src/bin/merge.rs"
 [[bin]]
 name = "maxsubarray"
 path = "src/bin/max_subarray.rs"
+
+[[bin]]
+name = "depth"
+path = "src/bin/depth.rs"
