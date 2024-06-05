@@ -1,0 +1,15 @@
+[package]
+name = "quadB"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+
+[[bin]]
+name = "palindrome"
+path = "src/bin/palindrome.rs"
+
+# [[bin]]
+# name = ""
+# path = "src/bin/.rs"
