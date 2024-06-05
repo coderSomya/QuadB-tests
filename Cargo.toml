@@ -29,3 +29,11 @@ path = "src/bin/median.rs"
 [[bin]]
 name = "prefix"
 path = "src/bin/prefix.rs"
+
+[[bin]]
+name = "kth"
+path = "src/bin/kth.rs"
+
+[[bin]]
+name = "reverse"
+path = "src/bin/reverse.rs"
