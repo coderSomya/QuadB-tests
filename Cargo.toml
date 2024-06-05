@@ -17,3 +17,15 @@ path = "src/bin/binary_search.rs"
 [[bin]]
 name = "shortestword"
 path = "src/bin/shortest_word.rs"
+
+[[bin]]
+name = "prime"
+path = "src/bin/prime.rs"
+
+[[bin]]
+name = "median"
+path = "src/bin/median.rs"
+
+[[bin]]
+name = "prefix"
+path = "src/bin/prefix.rs"
